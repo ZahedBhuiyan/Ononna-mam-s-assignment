@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    width: 20%;
+    border: 2px solid yellow;
+}
+.links{
+    width: 40%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    margin: 20px;
+}
+.logo{
+    width: 20%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 10%;
+    height: 100%;
+    border-radius: 50%;
+   
+}
+.backGround{
+    width: 100%;
+    height: 600px;
+    background-image: url("/IMAGES/backGround.jpg");
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 60%;
+    height: 200px;
+    
+}
+button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+}
+.itemimages{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    width: 80%;
+    height: 400px;
+}
+.images img{
+    width: 25%;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.images img:hover{
+    transform: translate(-50px);
+    transition: 3s;
+}
+.title{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.featureds{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featureds .products{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.featureds .products div{
+    width: 20%;
+    height: 70%;
+    margin: 20px;
+}
+.featureds .products div:hover{
+    transform: rotate(45deg);
+    transition: 1s;
+}
+.featureds .products div .one{
+    width: 100%;
+    height: 60%;
+}
+.featureds .products div .two{
+    width: 100%;
+    height: 20%;
+}
